@@ -28,6 +28,8 @@ Summary: PinYin input library
 URL: http://libpinyin.sf.net/
 License: GPL
 Group: System/Libraries
+BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: db5-devel
 
 %description
 PinYin input library
