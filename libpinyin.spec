@@ -5,7 +5,7 @@
 Summary:	PinYin input library
 Name:		libpinyin
 Version:	0.9.91
-Release:	4
+Release:	5
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
