@@ -1,16 +1,17 @@
-%define major	4
+%define major	5
 %define libname %mklibname pinyin %{major}
 %define devname %mklibname pinyin -d
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	0.9.91
-Release:	8
+Version:	1.1.0
+Release:	1
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
 Source0:	http://ufpr.dl.sourceforge.net/project/libpinyin/libpinyin/libpinyin-%{version}.tar.gz
-BuildRequires:	db5-devel
+BuildRequires:	autoconf
+BuildRequires:	db6-devel
 BuildRequires:	pkgconfig(glib-2.0)
 
 %description
@@ -35,7 +36,8 @@ Development files (Headers etc.) for %{name}.
 %setup -q
 
 %build
-%configure2_5x --disable-static
+autoreconf -fiv
+%configure
 %make
 
 %install
