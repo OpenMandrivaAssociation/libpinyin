@@ -9,7 +9,7 @@ Release:	2
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
-Source0:	http://ufpr.dl.sourceforge.net/project/libpinyin/libpinyin/libpinyin-%{version}.tar.gz
+Source0:	https://github.com/epico/libpinyin/archive/%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	db6-devel
 BuildRequires:	pkgconfig(glib-2.0)
