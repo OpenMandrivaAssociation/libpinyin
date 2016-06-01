@@ -1,4 +1,2 @@
-removed_sources:
-  libpinyin-0.9.91.tar.gz: 5bffa16c27537ad35623c5c0a67fa79b870cf2fe
 sources:
-  libpinyin-1.1.0.tar.gz: c34682f92ed3f4d25adbd1fd0a1722ee06a4e1ee
+  1.3.0.tar.gz: ef77c5900795914346bf36b47281670f091fa101
