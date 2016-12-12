@@ -4,12 +4,12 @@
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	1.3.0
+Version:	1.7.0
 Release:	1
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
-Source0:	https://github.com/epico/libpinyin/archive/%{version}.tar.gz
+Source0:	https://github.com/libpinyin/libpinyin/archive/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	db6-devel
 BuildRequires:	pkgconfig(glib-2.0)
@@ -36,7 +36,6 @@ Development files (Headers etc.) for %{name}.
 %setup -q
 
 %build
-autoreconf -fiv
 %configure
 %make
 
@@ -55,4 +54,3 @@ autoreconf -fiv
 %{_includedir}/*
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*
-
