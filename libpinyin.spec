@@ -1,10 +1,10 @@
-%define major	7
+%define major	13
 %define libname %mklibname pinyin %{major}
 %define devname %mklibname pinyin -d
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	1.7.0
+Version:	2.1.0
 Release:	1
 License:	GPLv2
 Group:		System/Libraries
