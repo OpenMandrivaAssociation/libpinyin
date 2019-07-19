@@ -4,14 +4,14 @@
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	2.2.1
+Version:	2.3.0
 Release:	1
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
 Source0:	https://github.com/libpinyin/libpinyin/releases/download/%{version}/libpinyin-%{version}.tar.gz
 BuildRequires:	autoconf
-BuildRequires:	db6-devel
+BuildRequires:	db-devel
 BuildRequires:	pkgconfig(glib-2.0)
 
 %description
