@@ -1,11 +1,11 @@
-%define major	13
+%define major	15
 %define libname %mklibname pinyin %{major}
 %define devname %mklibname pinyin -d
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	2.6.2
-Release:	2
+Version:	2.8.1
+Release:	1
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://libpinyin.sf.net/
@@ -37,10 +37,10 @@ Development files (Headers etc.) for %{name}.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/*
