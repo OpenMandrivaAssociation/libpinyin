@@ -8,7 +8,7 @@ Version:	2.9.91
 Release:	1
 License:	GPLv2
 Group:		System/Libraries
-Url:		http://libpinyin.sf.net/
+Url:		https://libpinyin.sf.net/
 Source0:	https://github.com/libpinyin/libpinyin/releases/download/%{version}/libpinyin-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	db-devel
