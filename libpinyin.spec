@@ -10,6 +10,10 @@ License:	GPLv2
 Group:		System/Libraries
 Url:		https://libpinyin.sf.net/
 Source0:	https://github.com/libpinyin/libpinyin/releases/download/%{version}/libpinyin-%{version}.tar.gz
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	autoconf
 BuildRequires:	db-devel
 BuildRequires:	pkgconfig(glib-2.0)
