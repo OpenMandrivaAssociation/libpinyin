@@ -4,7 +4,7 @@
 
 Summary:	PinYin input library
 Name:		libpinyin
-Version:	2.10.2
+Version:	2.10.3
 Release:	1
 License:	GPLv2
 Group:		System/Libraries
